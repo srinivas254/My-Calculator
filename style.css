@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    display:flex;
+    width:250px;
+    height:295px;
+    margin:auto;
+    margin-top:20vh;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:rgb(230, 216, 200);
+}
+
+body{
+    background-image:url('blackhole.jpg');
+}
+
+button{
+  width:55px;
+  height:40px;
+  cursor:pointer;
+  font-size:20px;
+  background-color:white;
+  border:none;
+  border-radius:5px;
+}
+
+.icons{
+    width:115px;
+    height:40px;
+    cursor:pointer;
+    font-size:20px;
+    background-color:white;
+    border:none;
+    border-radius:5px;
+}
+
+input{
+    width:222px;
+    height:52px;
+    background-color:rgba(38, 38, 38, 0.938);
+    color:white;
+    margin-bottom:5px;
+    font-size:30px;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:7px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    position:absolute;
+    top:11vh;
+    left:43.2vw;
+    color:rgb(255, 255, 255);
+    background-color:black;
+    display:inline-block;
+}
+
+#del,#reset{
+    background-color:rgba(112, 30, 30, 0.872);
+    color:white;
+}
+
+#equals{
+    background-color:rgb(255, 123, 0);
+}
