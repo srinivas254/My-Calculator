@@ -8,8 +8,8 @@
     width:250px;
     height:295px;
     margin:auto;
-    margin-top:20vh;
-    justify-content:space-evenly;
+    margin-top:1vh;
+    justify-content:center;
     align-items:center;
     background-color:rgb(230, 216, 200);
 }
@@ -54,12 +54,17 @@ input{
 h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
-    position:absolute;
-    top:11vh;
-    left:43.2vw;
     color:rgb(255, 255, 255);
     background-color:black;
     display:inline-block;
+    padding:6px;
+}
+
+.hoe{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 14vh;
 }
 
 #del,#reset{
